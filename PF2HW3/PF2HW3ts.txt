@@ -1,0 +1,328 @@
+Script started on 2023-03-03 23:45:00-0600
+]0;lrr009@turing: ~/PF2HW3lrr009@turing:~/PF2HW3$ g++ -@[KWall *.cpp -o mainHW3.exe
+]0;lrr009@turing: ~/PF2HW3lrr009@turing:~/PF2HW3$ ./man[KinHW3.exe
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+1
+Enter the first password:
+chair
+Enter second password:
+champs
+chair,2504,a09272
+challeng,6687,ebbb7b
+chambers,5394,c05398
+champ,3446,68a243
+champion,535,88dbda
+champs,2196,08996a
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+1
+Enter the first password:
+orion
+Enter second password:
+oreos
+Password not found
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter the first password:
+orion
+Enter second password:
+oreo
+oreo,6205,d0585f
+orient,4540,ab2663
+orioles,2679,7aad73
+orion,1503,487a76
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+1
+Enter the first password:
+point
+Enter second password:
+pokemon
+point,7341,78ee54
+pointer,7145,ccac8a
+poipoi,4357,eed2d9
+poison,1300,35393c
+poiuy,4236,c9a140
+poiuyt,1363,8ace72
+poiuytre,7144,7213c4
+poiuytrewq,2677,380524
+pokemon,235,00bfc8
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+1
+Enter the first password:
+snapple
+Enter second password:
+snicker
+snapple,3232,e28e41
+snappy,4882,1131d2
+sneakers,3231,a1743c
+snicker,8007,1b492a
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+2
+Enter the password you like to search:
+smokie
+Found at index: 7448
+smokie,4597,2d5f5f
+Indexes visited: 133
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+2
+Enter the password you like to search:
+01041993
+Found at index: 84
+01041993,8504,44ad78
+Indexes visited: 145
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+2
+Enter the password you like to search:
+aurora
+Found at index: 2559
+aurora,1256,99c8ef
+Indexes visited: 156
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+2
+Enter the password you like to search:
+average
+Password not found.
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+2
+Enter the password you like to search:
+bestbuy
+Found at index: 2757
+bestbuy,6119,98a2fa
+Indexes visited: 176
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+2
+Enter the password you like to search:
+blade
+Found at index: 2766
+blade,1827,2c066a
+Indexes visited: 189
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+3
+0062d2 was found.
+2f2e03 was found.
+78a384 was found.
+e2dac4 was not found.
+996fa1 was found.
+a9c431 was not found.
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+4
+Enter the password you like to search:
+blade
+blade,1827,2c066a
+Took this many linear iterations to find: 2767
+blade,1827,2c066a
+Took this many binary iterations to find: 202
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+xit   5
+Enter the password you like to search:
+smokie
+smokie,4597,2d5f5f
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+5
+Enter the password you like to search:
+01041993
+01041993,8504,44ad78
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+5
+Enter the password you like to search:
+aurora
+aurora,1256,99c8ef
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+5
+Enter the password you like to search:
+average
+Password is not found.Password not found.
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+5
+Enter the password you like to search:
+doctor
+doctor,277,f9f16d
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+5
+Enter the password you like to search:
+pants
+pants,3640,ca425b
+Pick an option:
+----------------------------------------------------------------------------
+1.) Search recursively two passwords and pull all the passwords between them
+2.) Search recursively for password
+3.) Search recursively of given file by hash
+4.) Compare linear and binary search
+5.) Iterative search for password
+6.) Exit the program
+----------------------------------------------------------------------------
+Enter menu selection:
+6
+The program ran successfully, have a nice night.
+]0;lrr009@turing: ~/PF2HW3lrr009@turing:~/PF2HW3$ exit
+exit
+
+Script done on 2023-03-04 09:39:34-0600

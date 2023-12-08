@@ -1,0 +1,135 @@
+Script started on 2023-04-11 00:11:35-0500
+]0;lrr009@turing: ~lrr009@turing:~$ logout[1Pgoutscript PF2HW4ts.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./PF2HW4.exe[8Pexitscript PF2HW4ts.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clgout[Kogout[Klogout[1Pgoutscript PF2HW4ts.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K./PF2HW4.exeg++ -std=c++11 -Wall main12.cpp Stack.cpp Queue.cpp -o PF2HW4.exe[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./PF2HW4.exe[Kg++ -std=c++11 -Wall main12.cpp Stack.cpp Queue.cpp -o PF2HW4.exe[1P.exe5.exe[1P[1P[1P[1P[1P[1@B[1@o[1@o[1@k[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[1P[1P[1@1
+[01m[Kmain11.cpp:[m[K In function ‘[01m[Kvoid insertionSort(std::vector<Book>&, int)[m[K’:
+[01m[Kmain11.cpp:69:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+    for (int i = lo + 1; [01;35m[Ki < list.size()[m[K; i++) {
+                         [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[Kmain11.cpp:[m[K In function ‘[01m[Kvoid mergeMini(std::vector<Book>&, std::vector<Book>&, std::vector<Book>&)[m[K’:
+[01m[Kmain11.cpp:146:18:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+    while (([01;35m[KleftI < left.size()[m[K) && (rightI < right.size())) {
+            [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[Kmain11.cpp:146:44:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+    while ((leftI < left.size()) && ([01;35m[KrightI < right.size()[m[K)) {
+                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[Kmain11.cpp:161:17:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+    while ([01;35m[KleftI < left.size()[m[K) {
+           [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[01m[Kmain11.cpp:168:18:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+    while ([01;35m[KrightI < right.size()[m[K) {
+           [01;35m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[Kmain11.cpp:[m[K In function ‘[01m[Kvoid writeFile(std::__cxx11::string, std::vector<Book>&, Book&)[m[K’:
+[01m[Kmain11.cpp:202:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+    for(int i = 0; [01;35m[Ki < list.size()[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+]0;lrr009@turing: ~lrr009@turing:~$ ./PF2HW5.exe
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+1
+Insertion sort runtime in seconds :2e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+2
+Selection sort runtime in seconds :2e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+3
+Merge sort runtime in seconds :2e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+4
+Quick sort runtime in seconds :2e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+1
+Insertion sort runtime in seconds :1e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+2
+Selection sort runtime in seconds :2e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+3
+Merge sort runtime in seconds :2e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+4
+Quick sort runtime in seconds :2e-06
+Welcome to the Sortatron 9000:
+-----------------------------------
+1: Insertion sort
+2: Selection sort
+3: Merge sort
+4: Quick sort
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+5
+]0;lrr009@turing: ~lrr009@turing:~$ ls
+Book.cpp        [0m[01;34mLinuxstuff[0m      [01;32mPF1HW4b.exe[0m  PF2HW4ts.txt   PFHW4a.cpp    pinball.txt         [01;34msecure_html[0m
+Book.h          main11.cpp      PF1HW4b.txt  [01;34mPF2HW5[0m         [01;32mPFHW4a.exe[0m    [01;34mpublic_html[0m         selectFile.csv
+books.txt       main4.cpp       [01;32mPF2HW1.exe[0m   [01;32mPF2HW5.exe[0m     PFHW4a.txt    quickFile.csv
+dead.letter     main5.cpp       PF2HW1.txt   PF2HW5ts.txt   PFHW5.cpp     RestaurantList.cpp
+hello.cpp       mergeFile.csv   [01;32mPF2HW2.exe[0m   PF2MW1ts2.txt  [01;32mPFHW5.exe[0m     RestaurantList.h
+[01;32mhello.exe[0m       Password.h.gch  PF2HW2.txt   [01;34mPFHW[0m           pinball1.txt  RestaurantNode.cpp
+[01;34mhw7[0m             PF1HW4b2.txt    [01;34mPF2HW3[0m       [01;32mPFHW4a2.exe[0m    pinball.cpp   RestaurantNode.h
+insertFile.csv  PF1HW4b.cpp     [01;32mPF2HW4.exe[0m   PFHW4a2.txt    pinball.h     [01;34mReynoldsHW6[0m
+]0;lrr009@turing: ~lrr009@turing:~$ eit[K[Kxit
+exit
+
+Script done on 2023-04-11 00:12:50-0500

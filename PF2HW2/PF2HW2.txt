@@ -1,0 +1,186 @@
+Script started on 2023-02-17 21:15:53-0600
+]0;lrr009@turing: ~lrr009@turing:~$ g++ -std=c++11 -Wall main5.cpp Restauranr[KtNoce.cpp[K[K[K[K[K[Kde.cpp P[KRestaurantList.cpp -o f2Hw2.exe[K[K[K[K[K[K[K[K[KPF2HW2.exe
+]0;lrr009@turing: ~lrr009@turing:~$ ./PF2HW2.exe
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+1
+What is the Restaurant's name?
+Arbyis  's
+What is the Restaurant's rating?
+7.9
+What is the meal's name?
+Roast Beef
+What is the type of the meal?
+Entree
+What is the meal's price?
+7.99
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+1
+What is the Restaurant's name?
+Chickfila
+What is the Restaurant's rating?
+6.9
+What is the meal's name?
+Chicken Nuggets
+What is the type of the meal?
+entree      Entree
+What is the meal's price?
+9.99
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+1
+What is the Restaurant's name?
+Braum's
+What is the Restaurant's rating?
+9.9
+What is the meal's name?
+Frozen Yogurt
+What is the type of the meal?
+dess    Dessert
+What is the meal's price?
+4.99
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+2
+Most expensive meal: $9.99
+
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+3
+What meal would you like to change the price of?
+Frozen Yogurt
+Insert a new price for the meal:
+3.99
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+4
+Restaurant name: Braum's
+Restaurant rating: 9.9
+Meal: Frozen Yogurt
+Meal type: Dessert
+Price: $3.99
+
+Restaurant name: Chickfila
+Restaurant rating: 6.9
+Meal: Chicken Nuggets
+Meal type: Entree
+Price: $9.99
+
+Restaurant name: Arby's
+Restaurant rating: 7.9
+Meal: Roast Beef
+Meal type: Entree
+Price: $7.99
+
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+3
+What meal would you like to change the price of?
+Chicken Nuggets
+Insert a new price for the meal:
+12.99
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+2
+Most expensive meal: $12.99
+
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+4
+Restaurant name: Braum's
+Restaurant rating: 9.9
+Meal: Frozen Yogurt
+Meal type: Dessert
+Price: $3.99
+
+Restaurant name: Chickfila
+Restaurant rating: 6.9
+Meal: Chicken Nuggets
+Meal type: Entree
+Price: $12.99
+
+Restaurant name: Arby's
+Restaurant rating: 7.9
+Meal: Roast Beef
+Meal type: Entree
+Price: $7.99
+
+Welcome to the Best Restaurant in the World or Something:
+-----------------------------------
+1: Add a meal
+2: Search for the highest priced meal
+3: Change the price of a meal
+4: Print out existing meals
+5: Exit the program
+-----------------------------------
+Enter menu selection: 
+5
+The program ran successfully, have a nice night.
+]0;lrr009@turing: ~lrr009@turing:~$ exit
+exit
+
+Script done on 2023-02-17 21:21:52-0600

@@ -1,0 +1,91 @@
+Script started on 2023-02-01 18:24:46-0600
+]0;lrr009@turing: ~lrr009@turing:~$ G[Kg++ -std=c++11 -Wall main4.cpp pinball.cpp -o PF2HW1.exe
+]0;lrr009@turing: ~lrr009@turing:~$ ./PF2HW1.exe
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+1
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+2
+What is the name of your machine?
+Razor
+What is the Year Produced of your machine?
+1990
+What is the Manufacturer of your machine?
+Hasbro
+What is the Average fun rating of your machine?
+8.9
+What is the theme of your machine?
+Christmas
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+3
+Enter a year to see which machines were manufactured during that year.
+1990
+Machine name: Razor
+Year produced: 1990
+Manufacturer: Hasbro
+Fun rating: 8.90
+Theme:Christmas
+
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+4
+Machine name: Medieval Madness
+Year produced: 1997
+Manufacturer:    Williams
+Fun rating: 8.30
+Theme:   fantasy, medieval, wizards/magic
+
+Machine name: Black Knight 2000
+Year produced: 1989
+Manufacturer:    Williams
+Fun rating: 7.90
+Theme:   Historical - knights
+
+Machine name: The Addams Family
+Year produced: 1992
+Manufacturer:    Bally
+Fun rating: 8.20
+Theme:   Celebrities, fictional, licensed theme
+
+Machine name: Sinbad
+Year produced: 1978
+Manufacturer:   Gottlieb
+Fun rating: 7.70
+Theme:  fantasy - myth and legend
+
+Machine name: Razor
+Year produced: 1990
+Manufacturer: Hasbro
+Fun rating: 8.90
+Theme:Christmas
+
+]0;lrr009@turing: ~lrr009@turing:~$ exit
+exit
+
+Script done on 2023-02-01 18:26:21-0600

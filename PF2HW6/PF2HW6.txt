@@ -1,0 +1,122 @@
+Script started on 2023-04-22 00:12:35-0500
+]0;lrr009@turing: ~lrr009@turing:~$ g++ -std=c++11 -Wall mainHW6.cpp StudentNode.cpp StudentList.cp p hashTable.cpp[1PhashTable.cpp[C[C[1PashTable.cpp[C ashTable.cpp[C[CHashTable.cpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -o PF2HW6.exe
+[01m[KmainHW6.cpp:[m[K In function ‘[01m[Kvoid readFile(std::__cxx11::string, HashTable&)[m[K’:
+[01m[KmainHW6.cpp:30:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgpa[m[K’ [[01;35m[K-Wunused-variable[m[K]
+    float [01;35m[Kgpa[m[K = 0.0;
+          [01;35m[K^~~[m[K
+[01m[KStudentList.cpp:[m[K In member function ‘[01m[Kvoid StudentList::removeL(std::__cxx11::string)[m[K’:
+[01m[KStudentList.cpp:77:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemp[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+       StudentNode* temp = temp->getNext([01;35m[K)[m[K;
+                                         [01;35m[K^[m[K
+[01m[KHashTable.cpp:[m[K In member function ‘[01m[Kint HashTable::hashFunction(std::__cxx11::string)[m[K’:
+[01m[KHashTable.cpp:80:22:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+    for (int i = 0; [01;35m[Ki < key.length()[m[K; i++) {
+                    [01;35m[K~~^~~~~~~~~~~~~~[m[K
+]0;lrr009@turing: ~lrr009@turing:~$ ./PF2HW6.exe
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+1
+What name would you like to insert? (Use capital letters for each token)
+Ibo Eshak
+What country would you like to insert?
+Iraq
+What city would you like to insert?
+Baghdad
+What gender would you like to insert?
+M
+What gpa would you like to insert?
+3.8
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+3
+What name would you like to update? (Use capital letters for each token)
+Ibo Eshak
+What  would you like to update the country to?
+Syria
+What  would you like to update the city to?
+Aleppo
+What would you like to update the gender to?
+M
+What  would you like to update the gpa to?
+3.8
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+4
+Enter the full name of the person you would like to search from the table (First name and last name): 
+Ibo Eh shak
+Index is: 225
+Full Name: Ibo Eshak
+Country: Syria
+City: Aleppo
+Gender: M
+GPA: 3.8
+
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+2
+Enter the full name of the person you would like to delete from the table (First name and last name): 
+Meggan Smith
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+2
+Enter the full name of the person you would like to delete from the table (First name and last name): 
+Sophie Smith
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+0
+Size: 373
+Count: 99
+Collisions: 14
+The program ran successfully... now go dig a hole or something.
+]0;lrr009@turing: ~lrr009@turing:~$ exit
+exit
+
+Script done on 2023-04-22 00:16:53-0500

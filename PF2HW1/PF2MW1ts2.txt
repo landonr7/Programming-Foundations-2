@@ -1,0 +1,94 @@
+Script started on 2023-02-01 19:11:18-0600
+]0;lrr009@turing: ~lrr009@turing:~$ g++ -std=c++11 -Wall main4.cpp pinball.cpp PF2HW1.exe
+/usr/bin/ld: PF2HW1.exe: _ZSt4cout: invalid version 2 (max 0)
+PF2HW1.exe: error adding symbols: Bad value
+collect2: error: ld returned 1 exit status
+]0;lrr009@turing: ~lrr009@turing:~$ ./PF2HW1.exe
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+1
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+2
+What is the name of your machine?
+Hammer
+What is the Year Produced of your machine?
+1995
+What is the Manufacturer of your machine?
+Johnson
+What is the Average fun rating of your machine?
+9.6
+What is the theme of your machine?
+Cyberpunk
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+3
+Enter a year to see which machines were manufactured during that year.
+1995
+Machine name: Hammer
+Year produced: 1995
+Manufacturer: Johnson
+Fun rating: 9.60
+Theme:Cyberpunk
+
+Welcome to Pee Wee's Pinball Database:
+-----------------------------------
+1: Read the machines from an ASCII file.
+2: Add a machine to the database
+3: Search machines by year
+4: Print out existing machines to ASCII file and exit the program.
+-----------------------------------
+Enter menu selection: 
+4
+Machine name: Medieval Madness
+Year produced: 1997
+Manufacturer:    Williams
+Fun rating: 8.30
+Theme:   fantasy, medieval, wizards/magic
+
+Machine name: Black Knight 2000
+Year produced: 1989
+Manufacturer:    Williams
+Fun rating: 7.90
+Theme:   Historical - knights
+
+Machine name: The Addams Family
+Year produced: 1992
+Manufacturer:    Bally
+Fun rating: 8.20
+Theme:   Celebrities, fictional, licensed theme
+
+Machine name: Sinbad
+Year produced: 1978
+Manufacturer:   Gottlieb
+Fun rating: 7.70
+Theme:  fantasy - myth and legend
+
+Machine name: Hammer
+Year produced: 1995
+Manufacturer: Johnson
+Fun rating: 9.60
+Theme:Cyberpunk
+
+]0;lrr009@turing: ~lrr009@turing:~$ exit
+exit
+
+Script done on 2023-02-01 19:13:21-0600

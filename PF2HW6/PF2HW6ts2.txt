@@ -1,0 +1,58 @@
+[?2004l
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+1
+What name would you like to insert? (Use capital letters for each token)
+Ibo Eshak
+What country would you like to insert?
+Iraq
+What city would you like to insert?
+Baghdad
+What gender would you like to insert?
+M
+What gpa would you like to insert?
+3.3
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+4
+Enter the full name of the person you would like to search from the table (First name and last name): 
+Ibo Eshak
+Index is: 264
+Full Name: Ibo Eshak
+Country: Iraq
+City: Baghdad
+Gender: M
+GPA: 3.3
+
+Welcome to the Hash Tabler:
+-----------------------------------
+1: Insert a node into the hash table.
+2: Delete a node from the hash table.
+3: Update a node in the hash table.
+4: Search a node in the hash table.
+5: Print the hash table.
+0: Exit the program.
+-----------------------------------
+Make a selection
+0
+Size: 373
+Count: 101
+Collisions: 13
+The program ran successfully... now go dig a hole or something.
+[?2004h
